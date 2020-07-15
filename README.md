@@ -1,2 +1,2 @@
 # study_daybyday
-日常学习
+日常学习计划
