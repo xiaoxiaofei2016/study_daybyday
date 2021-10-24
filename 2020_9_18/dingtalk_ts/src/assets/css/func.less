@@ -1,0 +1,12 @@
+@imgUrl: '~@/assets/image/';
+
+.changeImg(@imgName, @type: png) {
+  background-image: url('@{imgUrl}@{imgName}@2x.@{type}');
+  background-image:
+    image-set(
+      url('@{imgUrl}@{imgName}@2x.@{type}') 2x,
+      url('@{imgUrl}@{imgName}@2x.@{type}') 3x
+    );
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
